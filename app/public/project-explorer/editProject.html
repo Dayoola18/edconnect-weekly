@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/stylee.css">
+    <title>Edit Project</title>
+</head>
+<body>
+    <header>
+        <h1>Project Explorer</h1>
+        <h3>One Stop Database for Final Year Project</h3>
+    </header>
+<!--Beginning of nav-->
+<div class="container">
+
+    <section class="nav-container">
+            <label>Project Explorer</label>
+            <input type="text" placeholder="search projects">
+            <button class="search-btn">Search</button>
+            <label>Project Submit</label>
+            <button class="button-right">Login</button>
+            <button class='button-right'>Sign Up</button>
+
+    </section>
+<!--project info-->
+<h3>Project 4</h3>
+
+    <table>
+        <thead>
+            <tr>
+        <th>Program</th>
+        <th>Matriculation Number</th>
+        <th>Graduation Year</th>
+        </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Computer Science</td>
+                <td>00/0000</td>
+                <td>2019</td>
+            </tr>
+        </tbody>
+    </table>
+    
+    <input type="submit" value="view Project"id="sublog">
+
+<!--Beginning of form-->
+<section class="view-parent">
+    <div class="view-no">
+<form> 
+    <h4>Edit Project</h4>
+    <label for="name">Project Name:</label>
+    <br>
+    <input type="text" value="project 4">
+    <br><br>
+
+    <label for="">Project Abstract:</label>
+    <br>
+    <textarea>lorem ipsum dolor sit ametome quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.
+    </textarea>
+    <br><br>
+    
+        <label for="authors">Authors:</label>
+        <br>
+        <input type="text" value="Ade Ade, Brian James">
+        <br><br>
+        <label for="tag">Tag(s):</label>
+        <br>
+        <input type="text" value="#yaml, #ajs">
+        <br><br>
+        <input type="submit" value="save" id="sublog">
+</form>
+    </div>
+        <div class="view-no">
+    <form>
+        <Label for="">Manage Project Files</Label>
+        <br>
+        <input type="file">
+        <br><br>
+</form>
+</div>
+</section>
+<footer>
+    <p>Projet Explorer @ 2020 <strong>Edconnect</strong></p>
+</footer>
+</body>
+</html>
