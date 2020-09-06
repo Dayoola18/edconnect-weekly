@@ -21,12 +21,6 @@ nav{
     background-color:blue;
     padding:20px;   
 }
-nav li{
-    list-style-type: none;
-    display: inline;
-    margin-right:0px;
-    
-}
 
 .search-btn{
     color:white;
@@ -38,11 +32,14 @@ nav li{
     float:left;
     background:transparent;
     border:none;
+    
+    
 }
 .button-right{
     float:right;
     background:transparent;
     border:none;
+
 }
 .welcome-title{
     width:96%;
@@ -163,7 +160,7 @@ form input{
 }
      
 
-
+/*
 @media only screen and (min-width: 601px) and (max-width: 767px) {
     *{
         box-sizing: border-box;
@@ -191,12 +188,7 @@ form input{
         padding:20px;
         border: 1px solid;
     }
-    nav li{
-        list-style-type: none;
-        display: inline;
-        margin-right: 20px;
-        
-    }
+   
     
     .search-btn{
         color:white;
@@ -266,7 +258,7 @@ form input{
         
     }
         
-    /*login page*/
+    /*login page
 form{
     width:96%;
     margin:100px auto;
@@ -280,7 +272,7 @@ form input{
     width: auto;
 }
 
-/*sign up page */
+/*sign up page 
 
 .wrapper{
     margin-left: 250px;
@@ -338,12 +330,6 @@ form input{
         
     }
     
-    nav li{
-        list-style-type: none;
-        display: inline;
-        margin-right: 20px;
-        
-    }
     
     .search-btn{
         color:white;
@@ -415,7 +401,7 @@ form input{
         color:#fff;
         
     }
-      /*login page*/
+      /*login page
 form{
     width:96%;
     margin:100px auto;
@@ -429,7 +415,7 @@ form input{
     width: auto;
 }
 
-/*sign up page */
+/*sign up page 
 
 .wrapper{
     margin-left: 250px;
@@ -457,3 +443,4 @@ form input{
         
     }
 
+*/
