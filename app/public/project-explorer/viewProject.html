@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ='stylesheet' type='text/css' href='css/style.css'>
+    <link rel ='stylesheet' type='text/css' href='css/bootstrap.min.css'>
     <title>View Project</title>
 </head>
 <body>
@@ -11,36 +11,30 @@
 <!--Beginning of nav-->
 
 <div class="container">
-    <nav>
-        <div class="button-left">
-            <a href="index.html">Project Explorer</a>
-            <input type="text" placeholder="Search Projects">
-            <button class="search-btn">Search</button>
-            <a href="search.html">Project</a>
-             <a href="createProject.html">Submit</a>
-        </div>
-                
-        <div class="button-right">
-            <a href="register.html">Sign Up</a>
-            <a href="login.html">Login</a>
-        </div>
-        
+    <nav class="form-inline">
+            
+        <a href="index.html">Project Explorer</a>
+        <input type="text" placeholder="Search Projects " class="form-control">
+        <button class="search-btn btn-outline-light">Search</button>
+        <a href="search.html">Project</a>
+         <a href="createProject.html">Submit</a>
+        <a href="register.html">Sign Up</a>
+        <a href="login.html">Login</a>
     </nav>
 <!--project info-->
 <h4>project 4</h4>
-<div class="detail-heading">
-<nav class="heading">
-  <li class="fig">Program</li> 
-  <li class="fig">Computer Science</li> 
-  <nav class="detail">
-    <li class="fig">Matriculation Number</li>
-    <li class="fig">00/0000</li>
-  </nav>
-   <nav class="detail">
-    <li class="fig">Graduation Year</li>
-    <li class="fig">2019</li>
-   </nav>
-<input type="submit" value="Edit Project">
+<div class="form-inline">
+
+  <ul>Program</ul> 
+  <ul>Computer Science</ul> 
+
+    <ul>Matriculation Number</ul>
+    <ul>00/0000</ul>
+  
+    <ul>Graduation Year</ul>
+    <ul>2019</ul>
+   
+<button class="btn btn-primary">  Edit Project </button>
 </div>
 <section class="view-parent">
     <div class="view-no">
@@ -49,17 +43,18 @@
     </div>
         <div class="view-no">
 <form>
-        <label for="authors">Authors:</label>
-        <br>
-        <input type="text" value="Ade Ade, Brian James">
-        <br><br>
+    <section class="card">
+        <h5>Authors</h5>
+        <input type="text" value="Ade Ade, Brian James" class="form-control">
+     
+    <br>
         <label for="tag">Tag(s):</label>
-        <br>
-        <input type="text" value="#yaml, #ajs">
+        <input type="text" value="#yaml, #ajs" class="fprm-control">
         <br><br>
-        <Label for="">Project File</Label>
-        <br>
-        <input type="file">
+        
+            <h5>Project Files</h5>
+            <input type="text" placeholder="Search Projects " class="form-control">
+         </section>
 </form>
     </div>
 </section>

@@ -3,31 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ='stylesheet' type='text/css' href='css/style.css'>
+    <link rel ='stylesheet' type='text/css' href='css/bootstrap.min.css'>
     <title>Edit Project</title>
 </head>
 <body>
    
 <!--Beginning of nav-->
-        <nav>
-            <div class="button-left">
-                <a href="index.html">Project Explorer</a>
-                <input type="text" placeholder="Search Projects">
-                <button class="search-btn">Search</button>
-                <a href="search.html">Project</a>
-                 <a href="createProject.html">Submit</a>
-            </div>
-                    
-            <div class="button-right">
-                <a href="register.html">Sign Up</a>
-                <a href="login.html">Login</a>
-            </div>
+      
+<nav class="form-inline">
             
-        </nav>
+    <a href="index.html">Project Explorer</a>
+    <input type="text" placeholder="Search Projects " class="form-control">
+    <button class="search-btn btn-outline-light">Search</button>
+    <a href="search.html">Project</a>
+     <a href="createProject.html">Submit</a>
+    <a href="register.html">Sign Up</a>
+    <a href="login.html">Login</a>
+</nav>
 <!--project info-->
-<div class="container">
 <h3>Project 4</h3>
-
+<div class="form-inline">
     <table>
         <thead>
             <tr>
@@ -45,8 +40,8 @@
         </tbody>
     </table>
     
-    <input type="submit" value="view Project"id="sublog">
-
+    <button class="btn btn-primary"> view Project</button>
+</div>
 <!--Beginning of form-->
 <section class="view-parent">
     <div class="view-no">
@@ -54,39 +49,42 @@
     <h4>Edit Project</h4>
     <label for="name">Project Name:</label>
     <br>
-    <input type="text" value="project 4">
+    <input type="text" value="project 4" class="form-control">
     <br><br>
 
     <label for="">Project Abstract:</label>
     <br>
-    <textarea id="lorem">lorem ipsum dolor sit ametome quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.
+    <textarea id="lorem" class="form-control">lorem ipsum dolor sit ametome quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.Some quick example text to build on the card title and make up the bulk of the card's content.
     </textarea>
     <br><br>
     
         <label for="authors">Authors:</label>
         <br>
-        <input type="text" value="Ade Ade, Brian James">
-        <br><br>
+        <input type="text" value="Ade Ade, Brian James" class="form-control">
+        <br>
         <label for="tag">Tag(s):</label>
         <br>
-        <input type="text" value="#yaml, #ajs">
-        <br><br>
-        <input type="submit" value="save" id="sublog">
+        <input type="text" value="#yaml, #ajs" class="form-control">
+        <br>
+        <button class="btn btn-primary">Save</button>
 </form>
     </div>
-        <div class="view-no">
+    
     <form>
         <h4>Manage Project Files</h4>
         <br>
-        <input type="text" placeholder="search projects">
-                <button class="search">Browse</button>
-       
+        <input type="text" placeholder="Search Projects " class="form-control">
+    <button class="search-btn btn-outline-light">Browse</button>
+    <br><br>
+    <section class="card">
+       <h5>Project Files</h5>
+       <input type="text" placeholder="Search Projects " class="form-control">
+    </section>
 </form>
-</div>
+
 </section>
 <footer>
     <p>Projet Explorer @ 2020 <strong>Edconnect</strong></p>
 </footer>
-</div>
 </body>
 </html>

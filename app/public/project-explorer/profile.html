@@ -3,29 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ='stylesheet' type='text/css' href='css/style.css'>
+    <link rel ='stylesheet' type='text/css' href='css/bootstrap.min.css'>
     <title>Profile</title>
 </head>
 <body>
     
 <!--beginning of Navigation-->
 
-<div class="container">
-    <nav>
-        <div class="button-left">
-            <a href="index.html">Project Explorer</a>
-            <input type="text" placeholder="Search Projects">
-            <button class="search-btn">Search</button>
-            <a href="search.html">Project</a>
-             <a href="createProject.html">Submit</a>
-        </div>
-                
-        <div class="button-right">
-            <a href="register.html">Sign Up</a>
-            <a href="login.html">Login</a>
-        </div>
-        
-    </nav>
+<nav class="form-inline">
+            
+    <a href="index.html">Project Explorer</a>
+    <input type="text" placeholder="Search Projects " class="form-control">
+    <button class="search-btn btn-outline-light">Search</button>
+    <a href="search.html">Project</a>
+     <a href="createProject.html">Submit</a>
+    <a href="register.html">Sign Up</a>
+    <a href="login.html">Login</a>
+</nav>
     <div class="header">  
             <h3>Adedayo Olamide</h3>
     <p2>dayoola18@yahoo.com</p2>
@@ -56,22 +50,22 @@
         <div class="form-group">
             <div>
         <label for="fname">First Name:</label><br>
-        <input type="text">
+        <input type="text" class="form-inline">
         </div>
         <diV>
         <label for="lname">Last Name:</label><br>
-        <input type="text">
+        <input type="text" class="form-inline">
         </diV>
         </div>
         <div class="form-group">
             <div>
             <label for="email">Email Address:</label><br>
-            <input type="email">
+            <input type="email" class="form-inline">
             </div>
     
                 <div>
                 <label for="">Program:</label><br>
-                <select name="" id="">
+                <select name="" id="" class="form-inline">
                     <optgroup label="program">
                     <option value="">Computer Science</option>
                     <option value="">Information Management</option>
@@ -81,12 +75,12 @@
             <div class="form-group">
                 <div>
                 <label for="">Matriculation Number:</label><br>
-                <input type="number" placeholder="e.g 18/2020" id="">
+                <input type="number" placeholder="e.g 18/2020" id="" class="form-inline">
             </div>
             <div class="">
                 <diV>
                 <label for="">Year of Graduation:</label><br>
-                <select name="" id="" >
+                <select name="" id="" class="form-inline">
                     <optgroup label="year">
                     <option value="">2019</option>
                         <option value="">2020</option>
@@ -94,7 +88,7 @@
                 </select>
             </div></div>
             </div>
-                     <input type="submit" id="sublog" value="Update Status">
+              <button class="btn btn-primary">Update Status </button>
             
     
     </form>
@@ -106,20 +100,20 @@
         <div>
      <label for="Current">Current Password:</label>
      <br>
-     <input type="password">
+     <input type="password" class="form-inline">
         </div>
         <div>
      <label for="New">New Password:</label>
      <br>
-     <input type="password">
+     <input type="password" class="form-inline">
      </div>
      <div>
      <label for="Confirm">Confirm Password:</label>
      <br>
-     <input type="password">
+     <input type="password" class="form-inline">
      </div>
     </div>
-    <input type="submit" id="sublog" value="Change Password">
+    <button class="btn btn-primary">Change Password </button>
 </form>
 <footer>
     <p>Projet Explorer @ 2020 <strong>Edconnect</strong></p>

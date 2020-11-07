@@ -4,29 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel ='stylesheet' type='text/css' href='css/style.css'>
+    <link rel ='stylesheet' type='text/css' href='css/bootstrap.min.css'>
     <title>Login</title>
 </head>
     
 <!--beginning of nav-->
 <body>
     
-    <div class="container">
-        <nav>
-            <div class="button-left">
-                <a href="index.html">Project Explorer</a>
-                <input type="text" placeholder="Search Projects">
-                <button class="search-btn">Search</button>
-                <a href="search.html">Project</a>
-                 <a href="createProject.html">Submit</a>
-            </div>
-                    
-            <div class="button-right">
-                <a href="register.html">Sign Up</a>
-                <a href="login.html">Login</a>
-            </div>
+    <nav class="form-inline">
             
-        </nav>
+        <a href="index.html">Project Explorer</a>
+        <input type="text" placeholder="Search Projects " class="form-control">
+        <button class="search-btn btn-outline-light">Search</button>
+        <a href="search.html">Project</a>
+         <a href="createProject.html">Submit</a>
+        <a href="register.html">Sign Up</a>
+        <a href="login.html">Login</a>
+</nav>
 <!--Beginning of form-->
 
 <form>
@@ -34,16 +28,16 @@
     <div class="form-row">
     <label for="">Email Address:</label>
     <br>
-    <input type="email" placeholder="Email Address">
+    <input type="email" placeholder="Email Address" class="form-control">
     </div>
     <br>
     <div class="form-row">
     <label for="">Password:</label>
     <br>
-    <input type="password" placeholder="password"> 
+    <input type="password" placeholder="password" class="form-control"> 
     </div>
     <br>
-    <input type="submit" id="sublog" value="login">
+    <button class="btn btn-primary">Login</button>
 </form>
 
 <footer>

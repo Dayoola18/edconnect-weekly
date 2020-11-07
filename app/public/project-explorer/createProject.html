@@ -3,59 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel ='stylesheet' type='text/css' href='css/style.css'>
+    <link rel ='stylesheet' type='text/css' href='css/bootstrap.min.css'>
     <title>Create Project</title>
 </head>
 <body>
     
 <!--Beginning of nav-->
-<nav>
-    <div class="button-left">
-        <a href="index.html">Project Explorer</a>
-        <input type="text" placeholder="Search Projects">
-        <button class="search-btn">Search</button>
-        <a href="search.html">Project</a>
-         <a href="createProject.html">Submit</a>
-    </div>
+
+<nav class="form-inline">
             
-    <div class="button-right">
-        <a href="register.html">Sign Up</a>
-        <a href="login.html">Login</a>
-    </div>
-    
+    <a href="index.html">Project Explorer</a>
+    <input type="text" placeholder="Search Projects " class="form-control">
+    <button class="search-btn btn-outline-light">Search</button>
+    <a href="search.html">Project</a>
+     <a href="createProject.html">Submit</a>
+    <a href="register.html">Sign Up</a>
+    <a href="login.html">Login</a>
 </nav>
-<!--Beginning of form-->
-<div class="container">
-    
+<!--Beginning of form-->  
+<h4>Submit Project</h4>  
 <form>
-    <h4>Submit Project</h4>
     <label for="">Project Name:</label>
     <br>
-    <input type="text" placeholder="enter project name">
+    <input type="text" placeholder="enter project name" class="form-control">
     <br><br>
 
     <label for="">Project Abstract:</label>
 <br>
-    <textarea>
+    <textarea class="form-control">
 
     </textarea>
-    <br><br>
+    <br>
     
         <label for="authors">Authors:</label>
         <br>
-        <input type="text" placeholder="enter author name (seperated by comma}">
-        <br><br>
+        <input type="text" placeholder="enter author name (seperated by comma)" class="form-control">
+        <br>
         <label for="tag">Tag(s):</label>
         <br>
-        <input type="text" placeholder="use a tag project with different topics e.g #javascript">
-        <br><br>
+        <input type="text" placeholder="use a tag project with different topics e.g #javascript" class="form-control">
+        <br>
         
-         <input type="submit" value="continue" id="sublog">
+         <button class="btn btn-primary"> continue </button> 
 </form>
 <footer>
     <p>Projet Explorer @ 2020 <strong>Edconnect</strong></p>
 </footer>
-</div>
+
 </body>
 </html>
 
