@@ -9,73 +9,69 @@
 <body>
     
 <!--Beginning of nav-->
-
-<nav class="form-inline">
-            
+<nav class="form-inline">      
     <a href="index.html">Project Explorer</a>
+    <form class="form-inline">
     <input type="text" placeholder="Search Projects " class="form-control">
     <button class="btn btn-outline-light">Search</button>
+    </form>
     <a href="search.html">Project</a>
      <a href="createProject.html">Submit</a>
     <a href="register.html">Sign Up</a>
     <a href="login.html">Login</a>
 </nav>
 <!--Beginning of form-->
-
-<form method="get" action="" >
-    
-    <h3>Sign Up</h3>
-    
-    <div class="form-group">
-        <div>
+<main>
+<h3>Sign Up</h3>
+<form name="register" >
     <label for="fname">First Name:</label><br>
     <input type="text" class="form-control">
-    </div>
-    <diV>
+    <br><br>
     <label for="lname">Last Name:</label><br>
     <input type="text" class="form-control">
-    </diV>
-    </div>
-    <div class="form-group">
-        <div>
-        <label for="email">Email Address:</label><br>
-        <input type="email" class="form-control">
-        </div>
-        <div>
+   <br><br>
+  
+     <label for="email">Email Address:</label><br>
+    <input type="email" class="form-control">
+    <br><br>
         <label for="password">Password:</label><br>
         <input type="password" class="form-control">
-        </div>
-    </div>
-        <div class="form-group">
-            <div>
+        <br><br>
+
             <label for="">Program:</label><br>
-            <select name="" id="" class="form-control">
+            <select name="coursePrograms" id="" class="form-control">
                 <optgroup label="program">
-                <option value="">Computer Science</option>
-                <option value="">Information Management</option>
+                    <option value="CIS">CIS</option>
+                    <option value="CS">CS</option>
+                    <option value="CT">CT</option>
+                    <option value="SWE">SWE</option>
+                    <option value="BioChem">BioCHem</option>
+                    <option value="MLS">MedLabSci</option>
                 </optgroup>
                     </select>
-    </div>
-        <div class="mat">
+                    <br><br>
             <label for="">Matriculation Number:</label><br>
-            <input type="number" placeholder="e.g 18/2020" id="" class="form-inline">
-        </div>
-        <div class="mat">
+            <input type="number" placeholder="e.g 18/2020" id="" class="form-control">
+        
             <label for="">Year of Graduation:</label><br>
-            <select name="" id="" class="form-inline">
+            <select name="gradYear" id="" class="form-control">
                 <optgroup label="year">
-                <option value="">2019</option>
-                    <option value="">2020</option>
+                    <option value="2013">2013</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                    <option value="2019">2020</option>
                     </optgroup>
             </select>
-        </div></div>
+    
                 <button class="btn btn-primary">Sign Up</button>
-        
-    </div>
 </form>
+</main>
 <footer>
     <p>Projet Explorer @ 2020 <strong>Edconnect</strong></p>
 </footer>
-</div>
 </body>
 </html>

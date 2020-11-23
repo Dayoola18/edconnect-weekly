@@ -9,22 +9,21 @@
 <body>
     
 <!--Beginning of nav-->
-
-<nav class="form-inline">
-            
+<nav class="form-inline">      
     <a href="index.html">Project Explorer</a>
+    <form class="form-inline">
     <input type="text" placeholder="Search Projects " class="form-control">
     <button class="btn btn-outline-light">Search</button>
+    </form>
     <a href="search.html">Project</a>
      <a href="createProject.html">Submit</a>
     <a href="register.html">Sign Up</a>
     <a href="login.html">Login</a>
 </nav>
-
 <!--Search Result-->
-
+<main>
 <h3>Project Gallery</h3>
-<form class="">
+<form name="Search">
 <input type="text" id="searchproject" placeholder="search project name,authors,abstract,tags" class="form-control form-control-lg">
         <button id="search">search by</button>
 <select name="" id="" class="form-control form-control-lg">
@@ -34,8 +33,7 @@
         </select>
         <button class="btn btn-lg btn-primary">Submit</button>
     </form>
-<section class="project-no-parent">
-    <div class="project-no">     
+<section>
     <ul>
         <a href=""><h4>Project 1</h4></a>
         <li> Name: project 1</li>
@@ -44,8 +42,9 @@
         <li>Year: 2019</li>
     </ul>
     </div>
+</section>
 
-<div class="project-no">  
+<Section>  
     <ul>
         <a href=""><h4>Project 2</h4></a>
         <li> Name: project 2</li>
@@ -53,8 +52,8 @@
         <li>Program: Public Health</li>
         <li>Year: 2015</li>
     </ul>
-    </div>
-    <div class="project-no">  
+</Section>
+    <section>  
     <ul>
         <a href=""><h4>Project 3</h4></a>
         <li> Name: project 3</li>
@@ -62,8 +61,8 @@
         <li>Program: Computer Information Systems</li>
         <li>Year: 2020</li>
     </ul>
-    </div>
-    <div class="project-no">  
+    </section>
+    <section>  
     <ul>
         <a href=""><h4>Project 4</h4></a>
         <li> Name: project 4</li>
@@ -71,12 +70,10 @@
         <li>Program: Computer Information Systems</li>
         <li>Year: 2020</li>
     </ul>
-    </div>
-</div>
 </section>
+</main>
 <footer>
     <p>Projet Explorer @ 2020 <strong>Edconnect</strong></p>
-</footer>
-  
+</footer> 
 </body>
 </html>

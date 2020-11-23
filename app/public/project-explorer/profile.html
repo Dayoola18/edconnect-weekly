@@ -9,115 +9,87 @@
 <body>
     
 <!--beginning of Navigation-->
-
-<nav class="form-inline">
-            
+<nav class="form-inline">      
     <a href="index.html">Project Explorer</a>
+    <form class="form-inline">
     <input type="text" placeholder="Search Projects " class="form-control">
     <button class="btn btn-outline-light">Search</button>
+    </form>
     <a href="search.html">Project</a>
      <a href="createProject.html">Submit</a>
     <a href="register.html">Sign Up</a>
     <a href="login.html">Login</a>
 </nav>
-    <div class="header">  
+    <main>  
             <h3>Adedayo Olamide</h3>
-    <p2>dayoola18@yahoo.com</p2>
-    </div>
-    <table>
-            <thead>
-                <tr>
-            <th>Program</th>
-            <th>Matriculation Number</th>
-            <th>Graduation Year</th>
-            </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Computer Science</td>
-                    <td>00/0000</td>
-                    <td>2019</td>
-                </tr>
-            </tbody>
-    </table>
-    
+    <label>dayoola18@yahoo.com</label>
+    <h3><label>John Doe</label></h3>
+        <label>john.doe@gmail.com</label>
+        <ul>
+            <li>Program: Computer Science </li>
+            <li>Matric: 00/0000 </li>
+            <li>Graduation Year: 2019</li>
+        </ul>
+   
 <!--Beginning of form-->
-<div class="wrapper">
-    <form method="get" action="" >
+<h2>Update Profile</h2>
+    <form name="updateProfile" >
         
-        <h3>Sign Up</h3>
-        
-        <div class="form-group">
-            <div>
         <label for="fname">First Name:</label><br>
         <input type="text" class="form-control">
-        </div>
-        <diV>
+
         <label for="lname">Last Name:</label><br>
         <input type="text" class="form-control">
-        </diV>
-        </div>
-        <div class="form-group">
-            <div>
-            <label for="email">Email Address:</label><br>
-            <input type="email" class="form-control">
-            </div>
-    
-                <div>
-                <label for="">Program:</label><br>
-                <select name="" id="" class="form-inline">
-                    <optgroup label="program">
-                    <option value="">Computer Science</option>
-                    <option value="">Information Management</option>
-                    </optgroup>
+
+        <label for="email">Email Address:</label><br>
+        <input type="email" class="form-control">
+
+         <label for="">Program:</label><br>
+        <select name="coursePrograms" id="" class="form-control">
+            <option value="CIS">CIS</option>
+            <option value="CS">CS</option>
+            <option value="CT">CT</option>
+            <option value="SWE">SWE</option>
+            <option value="BioChem">BioCHem</option>
+            <option value="MLS">MedLabSci</option>
                         </select>
-        </div> </div>
-            <div class="form-group">
-                <div>
-                <label for="">Matriculation Number:</label><br>
-                <input type="number" placeholder="e.g 18/2020" id="" class="form-control">
-            </div>
-            <div class="">
-                <diV>
-                <label for="">Year of Graduation:</label><br>
-                <select name="" id="" class="form-control">
-                    <optgroup label="year">
-                    <option value="">2019</option>
-                        <option value="">2020</option>
-                        </optgroup>
-                </select>
-            </div></div>
-            </div>
-              <button class="btn btn-primary">Update Status </button>
+        
+        <label for="">Matriculation Number:</label><br>
+        <input type="number" placeholder="e.g 18/2020" id="" class="form-control">
             
-    
+        <label for="">Year of Graduation:</label><br>
+         <select name="gradYear" id="" class="form-control">
+                    <optgroup label="year">
+                        <option value="2013">2013</option>
+                        <option value="2014">2014</option>
+                        <option value="2015">2015</option>
+                        <option value="2016">2016</option>
+                        <option value="2017">2017</option>
+                        <option value="2018">2018</option>
+                        <option value="2019">2019</option>
+                        <option value="2019">2020</option>
+                </select>
+            
+        <button class="btn btn-primary">Update Status </button>  
     </form>
 
 
             <h3>Change of password</h3>
- <form method="get" action="" >
-    <div class="form-group">
-        <div>
+ <form name="changePassword">
      <label for="Current">Current Password:</label>
-     <br>
      <input type="password" class="form-control">
-        </div>
-        <div>
+     <br><br>
      <label for="New">New Password:</label>
-     <br>
      <input type="password" class="form-control">
-     </div>
-     <div>
+     <br><br>
      <label for="Confirm">Confirm Password:</label>
-     <br>
      <input type="password" class="form-control">
-     </div>
-    </div>
+     <br><br>
     <button class="btn btn-primary">Change Password </button>
 </form>
+</main>
 <footer>
     <p>Projet Explorer @ 2020 <strong>Edconnect</strong></p>
 </footer>
-</div>
 </body>
 </html>
