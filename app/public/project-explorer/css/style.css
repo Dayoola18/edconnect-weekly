@@ -157,288 +157,48 @@ form input{
     
 }
      
-
-/*
-@media only screen and (min-width: 601px) and (max-width: 767px) {
-    *{
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;     
-    }
-    
-    body{
-        margin:0;
-        padding:0;
-    }    
-    .container{
-       
-        width: 100%;
-        margin:10px auto;
-        
-    }
-    nav{
-        display: flex;
-        flex-direction: row;
-        align-content: space-evenly;
-        width:100%;
-        height:60px;
-        background-color:blue;
-        padding:20px;
-        border: 1px solid;
-    }
-   
-    
-    .search-btn{
-        color:white;
-        background:transparent;
-        border:1px solid #fff;
-        
-    }
-    .button-left{
-        float:left;
-        background:transparent;
-        border:none;
-    }
-    .button-right{
-        float:right;
-        background:transparent;
-        border:none;
-    }
-    .welcome-title{
-        width:96%;
-        height:250px;
-        margin:30px auto;
-        background-color: rgb(160, 149, 149);
-        padding:50px;
-    }
-    .welcome-title button{
-        color:#000;
-        background-color:blue;
-        border:1px solid #fff;
-    }
-    .welcome-title p{
-        margin-bottom:0;
-    }
-    .project-number-container{
-        display: flex;
-        flex-direction: row;
-        align-content: space-evenly;
-        width:100%;
-    }
-    .project-no-parent{
-        display:flex;
-        justify-content:space-between;
-        width:100%;
-        align-content:space-around;
-    }
-    .project-no{
-        border:1px solid black;
-        width:100%;
-        padding:10px;
-    }
-    .project-no li{
-        list-style-type:none;
-    }
-    .project-no a{
-        text-align:center;
-        color:orangered;
-    }
-    footer{
-        background-color:grey;
-        width:100%;
-        height:50px;
-        margin-top:20px;
-        padding:60px auto;
-    }
-    footer p{
-        float:right;
-        color:#fff;
-        
-    }
-        
-    /*login page
-form{
-    width:96%;
-    margin:100px auto;
-    padding:50px;
-}
-form input{
-    width: 300px;
-}
-#sublog{
-    background-color: blue;
-    width: auto;
-}
-
-/*sign up page 
-
-.wrapper{
-    margin-left: 250px;
-}
-.form-group{ 
-    display: grid; 
-    margin-bottom:15px; 
-    grid-template-columns:1fr 1fr 1fr 1fr; 
-
-}
-.mat input{
-    width: 150px;
-
-}
-
-.view-parent{
-    display:flex;
-  width:100%;
-    align-content:space-around;
-}
-.view-no{
-    width:20%;
-    padding:10px;
-}       
-    }
-    
-
-@media only screen and (max-width: 600px) {
-    *{
-        box-sizing: border-box;
-        -moz-box-sizing: border-box;
-        -webkit-box-sizing: border-box;     
-    }
-    
-    body{
-        margin:0;
-        padding:0;
-    }
-    
-    
-    
-    .container{
-       
-        width: 100%;
-        margin:10px auto;
-        
-    }
-    nav{
-       
-        width:100%;
-        height:60px;
-        background-color:blue;
-        padding:20px;
-        border: 1px solid;
-        
-    }
-    
-    
-    .search-btn{
-        color:white;
-        background:transparent;
-        border:1px solid #fff;
-        
-    }
-    .button-left{
-        float:left;
-        background:transparent;
-        border:none;
-    }
-    .button-right{
-        float:right;
-        background:transparent;
-        border:none;
-    }
-    
-    .welcome-title{
-        width:96%;
-        height:250px;
-        margin:30px auto;
-        background-color: rgb(160, 149, 149);
-        padding:50px;
-    }
-    .welcome-title button{
-        color:#000;
-        background-color:blue;
-        border:1px solid #fff;
-    }
-    .welcome-title p{
-        margin-bottom:0;
-    }
-    
-    .project-number-container{
-        display: flex;
-        flex-direction: row;
-        align-content: space-evenly;
-        width:100%;
-    }
-    .project-no-parent{
-        display:flex;
-        justify-content:space-between;
-        width:100%;
-        align-content:space-around;
-    }
-    .project-no{
-        border:1px solid black;
-        width:100%;
-        padding:10px;
-    }
-    .project-no li{
-        list-style-type:none;
-    }
-    .project-no a{
-        text-align:center;
-        color:orangered;
-    }
-    footer{
-        background-color:grey;
-        width:100%;
-        height:50px;
-        margin-top:20px;
-        padding: 60px auto;
-        
-    }
-    footer p{
-        float:right;
-        color:#fff;
-        
-    }
-      /*login page
-form{
-    width:96%;
-    margin:100px auto;
-    padding:50px;
-}
-form input{
-    width: 300px;
-}
-#sublog{
-    background-color: blue;
-    width: auto;
-}
-
-/*sign up page 
-
-.wrapper{
-    margin-left: 250px;
-}
-.form-group{ 
-    display: grid; 
-    margin-bottom:15px; 
-    grid-template-columns:1fr 1fr 1fr 1fr; 
-
-}
-.mat input{
-    width: 150px;
-
-}
-
-.view-parent{
-    display:flex;
-  width:100%;
-    align-content:space-around;
-}
-.view-no{
-    width:20%;
-    padding:10px;
-}  
-        
-    }
-
-*/
+* {
+    box-sizing: border-box;
+  }
+  h6 {
+    margin: 0;
+  }
+  
+  /*.flex-container1 {
+    display: flex;
+    justify-content: space-between;
+  }
+  */
+  .flex-container1 section {
+    border: 1px solid #ebe8e7;
+    flex-basis: 23.5%;
+    padding: 15px;
+  }
+  /*
+  .flex-container1 .child-1 {
+    order: 4;
+  }
+  .flex-container1 .child-2 {
+    order: 3;
+  }
+  .flex-container1 .child-3 {
+    order: 2;
+  }
+  .flex-container1 .child-4 {
+    order: 1;
+  }
+  .flex-container1 section ul {
+    list-style-type: none;
+    margin-left: -37px;
+  }
+  .flex-container1 section li .code-inline {
+    margin-right: 15px;
+  }
+  */
+  #projectName {
+    color: #b4b4b4;
+  }
+  /*
+  #projectDesc {
+    margin-bottom: 15px;
+  }*/
